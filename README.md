@@ -19,4 +19,21 @@ conda activate venv
 ```
 pip install -r requirements.txt
 ```
+```
+pip freeze > requirements.txt
+```
 ----------------------------------------
+To setup CI/CD pipeline in heroku we need 3 information
+
+1. heroku email id.
+2. heroku api key.
+3. heroku app name.
+
+>Note: Without these three information, we cannot deploy our project
+
+---------------------------------------------------------------------
+Build the Docker image
+```
+Docker build -t <image name>:<tag name> .
+```
+>Note: Image name always be in small letter.
