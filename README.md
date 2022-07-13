@@ -54,3 +54,7 @@ To stopdocker container
 ```
 docker stop <container id>
 ```
+App url is 
+```
+https://ml-project-reg.herokuapp.com/hello
+```
