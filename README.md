@@ -1,4 +1,4 @@
-# End-to-End-Basic-Machine-Learning-Project
+# End-to-End-Basic-Machine-Learning-Project - House Price Prediction
 
 Steps:
 Creating conda environment
